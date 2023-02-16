@@ -1,1 +1,0 @@
-# Erdem-Sevilmis.github.io
