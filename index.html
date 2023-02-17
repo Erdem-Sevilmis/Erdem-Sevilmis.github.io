@@ -6,18 +6,43 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='bootstrap.min.css'>
     <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
     <script src='main.js'></script>
 </head>
 
 <body>
-    <div class="content">
+    <nav>
+        <ul id="navelemts">
+            <li><a href="#mainpage">Home</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#bio">Bio</a></li>
+        </ul>
+    </nav>
+
+    <div id="mainpage" class="mainpage">
         <div id="large-header" class="large-header">
             <canvas id="demo-canvas"></canvas>
-            <h1 class="main-title">Connect <span class="thin">Three</span></h1>
         </div>
+        <h1>Erde sevil weißt eh</h1>
     </div>
-    
+
+    <div id="projects" class="projects">
+        <h1>multiple projecte</h1>
+        <ul>
+            <li>asd</li>
+            <li>asd</li>
+        </ul>
+    </div>
+
+    <div id="bio" class="bio">
+        <h1>Me stuff explain</h1>
+    </div>
+
+    <footer id="footer" class="footer">
+        <h1>fut</h1>
+    </footer>
+
     <script src="js/TweenLite.min.js"></script>
     <script src="js/EasePack.min.js"></script>
     <script src="js/rAF.js"></script>

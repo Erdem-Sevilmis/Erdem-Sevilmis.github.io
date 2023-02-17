@@ -1,0 +1,73 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0%;
+}
+
+/*navigation*/
+nav {
+    z-index: 1;
+    position: relative;
+    background-color: black;
+    overflow: hidden;
+}
+
+ul#navelemts {
+    list-style: none;
+    margin: 0;
+    margin-right: 10%;
+    padding: 0%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+ul#navelemts li {
+    float: right;
+}
+
+ul#navelemts li a {
+    display: block;
+    color: #333;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+ul#navelemts li a:hover {
+    background-color: #3a3a3a;
+    color: black;
+}
+
+/*mainpage*/
+.mainpage {
+    height: 100vh;
+    background-color: green;
+    position: relative;
+    z-index: 0;
+}
+
+.large-header {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    margin: 0;
+    padding: 0%;
+}
+
+/*projects*/
+.projects {
+    height: 100vh;
+    background-color: red;
+}
+
+/*bio*/
+.bio {
+    height: 100vh;
+    background-color: blue;
+}
+
+/*footer*/
+.footer {
+    background-color: black;
+}
