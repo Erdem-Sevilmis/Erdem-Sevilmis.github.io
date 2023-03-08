@@ -116,11 +116,13 @@ ul#navelemts li a:hover {
 
 /*projects*/
 .projects {
+    position: relative;
     scroll-snap-align: center;
     height: 100vh;
     background-color: #2f2f2f;
 }
 #projectImages {
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -132,6 +134,24 @@ ul#navelemts li a:hover {
     margin: 0 100px;
     border: 15px solid #878472ff;
     border-radius: 50%;
+  }
+  #projectContent{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin-top: 200px;
+  }
+  #GameDealzContent {
+    margin-left: 200px;
+    width: 400px;
+    border: 1px solid;
+    word-wrap: break-word;  
+  }
+  #MetaBreakerContent {
+    margin-left: 200px;
+    width: 400px;
+    border: 1px solid;
+    word-wrap: break-word;  
   }
 /*bio*/
 .bio {
