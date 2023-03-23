@@ -10,6 +10,7 @@ html {
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
 }
+
 body {
     height: 100vh;
     margin: 0;
@@ -24,7 +25,12 @@ body {
     background-color: transparent;
 }
 
-h1,h2,h3,h4,h5,h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     color: #00e5e8ff;
 }
 
@@ -121,6 +127,60 @@ ul#navelemts li a:hover {
     height: 100vh;
     background-color: #2f2f2f;
 }
+
+.projects h2 {
+    padding-top: 5%;
+    font-family: 'Big_Noodle', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+
+
+#MetaBreakerSection {
+    margin-top: 5%;
+    position: relative;
+    display: inline-block;
+}
+
+#MetaBreaker {
+    border-top: 325px solid #776161;
+    border-left: 0px solid transparent;
+    border-right: 70px solid transparent ;
+    height: 0px;
+    width: 750px;
+    z-index: 1;
+    position: relative;
+}
+
+#MetaBreakerContent {
+    top: 0;
+    left: 0;
+    position: absolute;
+    margin-left: 10px;
+    width: 600px;
+    z-index: 1;
+}
+
+#MetaBreakerIMG {
+    height: 325px;
+    top: 0;
+    left: 680px;
+    position: absolute;
+    z-index: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 #projectImages {
     position: relative;
     display: flex;
@@ -128,31 +188,29 @@ ul#navelemts li a:hover {
     align-items: center;
     height: 100%;
     scale: 0.4;
-  }
-  #projectImages img {
+}
+
+#projectImages img {
 
     margin: 0 100px;
     border: 15px solid #878472ff;
     border-radius: 50%;
-  }
-  #projectContent{
+}
+
+#projectContent {
     position: absolute;
     display: flex;
     align-items: center;
     margin-top: 200px;
-  }
-  #GameDealzContent {
+}
+
+#GameDealzContent {
     margin-left: 200px;
     width: 400px;
     border: 1px solid;
-    word-wrap: break-word;  
-  }
-  #MetaBreakerContent {
-    margin-left: 200px;
-    width: 400px;
-    border: 1px solid;
-    word-wrap: break-word;  
-  }
+    word-wrap: break-word;
+}
+
 /*bio*/
 .bio {
     scroll-snap-align: start;
