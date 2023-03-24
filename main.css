@@ -37,7 +37,17 @@ h6 {
 @font-face {
     font-family: 'Cinemair';
     src: url('fonts/Cinemair.ttf');
+    
 }
+@font-face {
+    font-family: 'Big_Noodle';
+    src: url('fonts/Big_Noodle.ttf');
+}   
+@font-face {
+    font-family: 'Lora';
+    src: url('fonts/Lora-Regular.ttf');
+}    
+
 
 /*navigation*/
 nav {
@@ -71,7 +81,7 @@ ul#navelemts li a {
 }
 
 ul#navelemts li a:hover {
-    background-color: #878472ff;
+    background-color:rgb(26, 26, 26);
     color: white;
 }
 
@@ -118,6 +128,7 @@ ul#navelemts li a:hover {
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
+    font-family: 'Lora', sans-serif;
 }
 
 /*projects*/
@@ -130,22 +141,29 @@ ul#navelemts li a:hover {
 
 .projects h2 {
     padding-top: 5%;
-    font-family: 'Big_Noodle', sans-serif;
-    font-weight: bold;
+    font-family: 'Big_Noodle', Arial;
     color: white;
+    text-shadow: 4px 4px #000000;
+    font-size: 50px;
 }
-
+.projects p {
+    padding-top: 2%;
+    font-family: 'Segoe UI', Arial;
+    color: white;
+    font-size: 15px
+}
 
 #MetaBreakerSection {
     margin-top: 5%;
     position: relative;
     display: inline-block;
+    
 }
 
 #MetaBreaker {
-    border-top: 325px solid #776161;
+    border-top: 325px solid #222;
     border-left: 0px solid transparent;
-    border-right: 70px solid transparent ;
+    border-right: 70px solid transparent;
     height: 0px;
     width: 750px;
     z-index: 1;
@@ -156,7 +174,7 @@ ul#navelemts li a:hover {
     top: 0;
     left: 0;
     position: absolute;
-    margin-left: 10px;
+    margin-left: 90px;
     width: 600px;
     z-index: 1;
 }
@@ -169,6 +187,30 @@ ul#navelemts li a:hover {
     z-index: 0;
 }
 
+.parent {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 680px;
+}
+
+/* Brightness-zoom Container */
+.img-hover-zoom--brightness {
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(50%);
+    background-image: url("img/MetaBreaker.gg_Preview.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    width: 325px;
+}
+
+/* The Transformation */
+.img-hover-zoom--brightness:hover {
+    filter: brightness(100%);
+    transform: scale(1.3);
+}
 
 
 
