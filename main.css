@@ -165,7 +165,7 @@ ul#navelemts li a:hover {
     border-left: 0px solid transparent;
     border-right: 70px solid transparent;
     height: 0px;
-    width: 750px;
+    width: 850px;
     z-index: 1;
     position: relative;
 }
@@ -178,24 +178,15 @@ ul#navelemts li a:hover {
     width: 600px;
     z-index: 1;
 }
-
-#MetaBreakerIMG {
-    height: 325px;
-    top: 0;
-    left: 680px;
-    position: absolute;
-    z-index: 0;
-}
-
-.parent {
+.parent--MetaBreaker {
     overflow: hidden;
     position: absolute;
     top: 0;
-    left: 680px;
+    left: 750px;
 }
 
 /* Brightness-zoom Container */
-.img-hover-zoom--brightness {
+.img-hover-zoom--brightness--MetaBreaker {
     transition: transform 2s, filter 1.5s ease-in-out;
     transform-origin: center center;
     filter: brightness(50%);
@@ -207,10 +198,69 @@ ul#navelemts li a:hover {
 }
 
 /* The Transformation */
-.img-hover-zoom--brightness:hover {
+.img-hover-zoom--brightness--MetaBreaker:hover {
     filter: brightness(100%);
     transform: scale(1.3);
 }
+
+
+#GameDealzSection {
+    margin-top: 25%;
+    position: absolute;
+    display: inline-block;
+    right: 0;
+}
+
+#GameDealz {
+    border-bottom: 325px solid #222;
+    border-right: 0px solid transparent;
+    border-left: 70px solid transparent;
+    height: 0px;
+    width: 850px;
+    z-index: 1;
+    position: relative;
+}
+
+#GameDealzContent {
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin-right: 140px;
+    width: 620px;
+    z-index: 1;
+    word-wrap: break-word;
+}
+
+.parent--GameDealz {
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    right: 750px;
+}
+
+/* Brightness-zoom Container */
+.img-hover-zoom--brightness--GameDealz {
+    transition: transform 2s, filter 1.5s ease-in-out;
+    transform-origin: center center;
+    filter: brightness(50%);
+    background-image: url("img/MetaBreaker.gg_Preview.JPG");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    width: 325px;
+}
+
+/* The Transformation */
+.img-hover-zoom--brightness--GameDealz:hover {
+    filter: brightness(100%);
+    transform: scale(1.3);
+}
+
+
+
+
+
+
 
 
 
@@ -246,12 +296,6 @@ ul#navelemts li a:hover {
     margin-top: 200px;
 }
 
-#GameDealzContent {
-    margin-left: 200px;
-    width: 400px;
-    border: 1px solid;
-    word-wrap: break-word;
-}
 
 /*bio*/
 .bio {
